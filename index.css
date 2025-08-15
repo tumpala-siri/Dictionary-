@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+}
+.bg{
+    background-image: url("https://thumbs.dreamstime.com/b/stack-books-desk-university-library-open-book-papers-pens-blurred-bookshelves-background-education-research-studying-385727303.jpg");
+    background-size: cover;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: rgba(198, 159, 129, 0.575);
+    width:380px;
+    height:45vh;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgb(63, 62, 62);
+    overflow:scroll;
+}
+.search-part{
+    background-color: rgba(222, 195, 160, 0.352);
+    padding: 8px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 2px 2px 3px black;
+    justify-content: space-between;
+}
+
+#word{
+    border-radius: 5px;
+    border:1px solid black;
+    font-size: 15px;
+    padding:5px;
+    border :none;
+    background-color: rgba(99, 32, 46, 0.58);
+    border: 0.5px solid black;
+   
+}
+.btn{
+    width:5em;
+    background-color: rgba(99, 32, 46, 0.55);
+    border: 0.5px solid black;
+    border-radius: 3px;
+}
+#err{
+    color:rgb(23, 22, 22);
+    font-size:26px;
+    font-weight:400;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top:5px;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:5px;
+    padding-top:8px
+}
+#soundbtn{
+    width:5em;
+    background-color: rgba(130, 57, 26, 0.779);
+    border:1.5px solid rgb(101, 68, 66);
+    border-radius:6px;
+}
+#soundbtn:hover{
+    background-color: rgba(126, 57, 28, 0.817);
+    cursor: pointer;
+    border-radius: 10px;
+}
+.main-head{
+    font-size:25px;
+    text-transform: capitalize;
+}
+#pos{
+    font-size:18px;
+    text-transform: capitalize;
+}
+#phoneticText{
+    font-size: 18px;
+}
+#def,#eg{
+    font-size:18px;
+    margin-bottom:5px
+}
+#resBox{
+    display: none;
+}
