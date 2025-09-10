@@ -36,13 +36,13 @@
     color:black;
     padding:5px;
     border :none;
-    background-color: rgba(99, 32, 46, 0.58);
+    background-color: rgba(99, 32, 46, 0.68);
     border: 0.5px solid black;
    
 }
 .btn{
     width:5em;
-    background-color: rgba(99, 32, 46, 0.55);
+    background-color: rgba(99, 32, 46, 0.65);
     border: 0.5px solid black;
     border-radius: 3px;
 }
@@ -94,4 +94,5 @@
 #resBox{
     display: none;
 }
+
 
