@@ -60,14 +60,13 @@ search.addEventListener("click", async function(){
         deftxt.textContent = `Defination:${def.definition}`
 
         //example
-        eg_head= document.getElementById("eg-head")
+        
         if(def.example){
-            eg_head.textContent="Example";
             eg.textContent =`example:${def.example}`
         }
         else{
-            eg.textContent = ""
-            eg_head.textContent="No Example";
+            eg.textContent = "not avaliable"
+            
         }
 
         audio.src=audosrc
@@ -82,4 +81,5 @@ search.addEventListener("click", async function(){
     
 
 })
+
 
