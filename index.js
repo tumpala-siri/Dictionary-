@@ -60,11 +60,14 @@ search.addEventListener("click", async function(){
         deftxt.textContent = `Defination:${def.definition}`
 
         //example
+        eg_head= document.getElementById("eg-head")
         if(def.example){
+            eg_head.textContent="Example";
             eg.textContent =`example:${def.example}`
         }
         else{
-            document.getElementById("eg-head").textContent="No Example";
+            eg.textContent = ""
+            eg_head.textContent="No Example";
         }
 
         audio.src=audosrc
@@ -79,3 +82,4 @@ search.addEventListener("click", async function(){
     
 
 })
+
