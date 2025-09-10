@@ -63,6 +63,9 @@ search.addEventListener("click", async function(){
         if(def.example){
             eg.textContent =`example:${def.example}`
         }
+        else{
+            document.getElementById("eg-head").textContent="No Example";
+        }
 
         audio.src=audosrc
         soundbtn.addEventListener("click",() =>{audio.play()})
@@ -74,4 +77,5 @@ search.addEventListener("click", async function(){
     }
         
     
+
 })
